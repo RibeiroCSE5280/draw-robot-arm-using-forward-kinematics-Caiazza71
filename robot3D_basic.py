@@ -1,6 +1,19 @@
 #!/usr/bin/env python
 # coding: utf-8
+"""
+Objective: Draw the robot arm 
 
+The assignment notes describe the equations and main steps to compute the position of each part of the robot. 
+You will choose the location of the other objects in the scene. 
+
+Deliverables: Deliver the source code of your implementation and the link to a video (or animated gif) showing the animation. 
+The poses must be calculated using forward kinematics. 
+
+While you can use linear-algebra libraries, and 3-D graphics libraries, you must implement your own forward-kinematics function. 
+It is fine to use functions such as Rotate(), Translate(), Affine(), etc. Don't use functions such as ForwardKinematics() if you find one. 
+You can also use functions for drawing the robot parts. If you have questions about what resources you are allowed to use, please ask me. 
+You code must create  all robot parts and also calculate the position of each part. Do not use a pre-made robot.
+"""
 
 from vedo import *
 
@@ -213,6 +226,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
-
